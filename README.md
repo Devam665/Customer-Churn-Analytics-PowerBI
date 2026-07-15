@@ -89,13 +89,13 @@ The dashboard takes 7,000+ customer records and transforms them into:
 
 ### Full Dashboard View
 
-![Customer Churn Analytics Dashboard](images/dashboard_overview.png)
+![Customer Churn Analytics Dashboard](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/dashboard_overview.png)
 
 ### Risk Score Logic (DAX)
 
 The customer-level risk score combines tenure, monthly charges, and churn history into a single 0–100 score used to rank the "Top 10 High-Risk Customers" table.
 
-![DAX Risk Score Measure and Power Query Editor](images/dax_measure_and_query_editor.png)
+![DAX Risk Score Measure and Power Query Editor](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/dax_measure_and_query_editor.png)
 
 ```dax
 Risk Score =
@@ -126,7 +126,7 @@ The remainder of the base — the customers captured by the **Churn Rate** and *
 **4. What is the overall customer churn rate?**
 The **Churn Rate** KPI card gives a single, always-visible answer: **26.58%** of customers have churned.
 
-![KPI Summary Cards](images/kpi_summary_cards.png)
+![KPI Summary Cards](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/kpi_summary_cards.png)
 
 ---
 
@@ -141,7 +141,7 @@ The **Average Total Charges** card reports the average lifetime billing per cust
 **7. How much revenue is currently at risk due to customer churn?**
 The **Revenue at Risk** KPI card converts churned/high-risk customers into a dollar figure — currently **~$12.60K** — so leadership sees churn as a revenue problem, not just a count.
 
-![KPI Summary Cards](images/kpi_summary_cards.png)
+![KPI Summary Cards](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/kpi_summary_cards.png)
 
 ---
 
@@ -156,7 +156,7 @@ The **Top 10 High-Risk Customers** table lists individual `customerID`s ranked b
 **10. What is the Risk Score of each customer?**
 Every customer has a Risk Score (0–100%) computed from the DAX measure shown above, combining tenure, monthly charges, and churn history into one number, visible directly in the high-risk table.
 
-![Top 10 High-Risk Customers](images/top10_high_risk_customers.png)
+![Top 10 High-Risk Customers](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/top10_high_risk_customers.png)
 
 ---
 
@@ -168,7 +168,7 @@ Every customer has a Risk Score (0–100%) computed from the DAX measure shown a
 **12. Are Month-to-Month customers more likely to churn than One-Year or Two-Year customers?**
 Yes. The **Contract Type with Highest Customer Churn** chart shows Month-to-Month customers churning at a much higher rate, while Two-Year contract holders are the most stable segment — reinforcing that contract length itself is protective against churn.
 
-![Contract Type Churn Analysis](images/contract_type_churn.png)
+![Contract Type Churn Analysis](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/contract_type_churn.png)
 
 ---
 
@@ -180,7 +180,7 @@ Yes. The **Contract Type with Highest Customer Churn** chart shows Month-to-Mont
 **14. Does Fiber Optic service experience more churn than DSL?**
 Yes. The **Churn by Internet Service** chart shows Fiber Optic churn substantially exceeding DSL churn, suggesting service quality, pricing, or competitive alternatives in the Fiber segment may be driving customers away.
 
-![Internet Service Churn](images/internet_service_churn.png)
+![Internet Service Churn](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/internet_service_churn.png)
 
 ---
 
@@ -192,7 +192,7 @@ Yes. The **Churn by Internet Service** chart shows Fiber Optic churn substantial
 **16. Do customers using Electronic Check churn more frequently?**
 Yes. The **Payment Method Distribution** chart shows Electronic Check users churning far more often than customers on Mailed Check, Bank Transfer, or Credit Card (automatic), pointing to payment friction or a less "sticky" billing relationship as a churn driver.
 
-![Payment Method Churn](images/payment_method_churn.png)
+![Payment Method Churn](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/payment_method_churn.png)
 
 ---
 
@@ -210,7 +210,7 @@ A **Partner** slicer lets users compare churn for customers with vs. without a p
 **20. Do customers with dependents have lower churn?**
 A **Dependents** slicer is included specifically to test this — filtering to "Yes"/"No" re-calculates every KPI live to compare the two groups.
 
-![Demographic Filters Panel](images/demographic_filters_panel.png)
+![Demographic Filters Panel](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/demographic_filters_panel.png)
 
 ---
 
@@ -225,7 +225,7 @@ Churn probability is highest in month 0–1 of tenure, falls quickly through the
 **23. Which tenure group experiences the highest churn?**
 **Brand-new customers (tenure near 0 months)** show the sharpest churn spike, which is also reflected in the Risk Score formula giving new customers the highest tenure-based penalty.
 
-![Churn Trend by Tenure](images/churn_trend_by_tenure.png)
+![Churn Trend by Tenure](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/churn_trend_by_tenure.png)
 
 ---
 
@@ -237,7 +237,7 @@ Yes. The **Churn by Monthly Charges** chart shows churn concentrated in the mid-
 **25. Is there a relationship between total charges and customer retention?**
 Generally, customers with **higher total charges (a proxy for longer tenure and loyalty)** are less likely to churn, while customers with low total charges — typically newer, lower-commitment customers — churn more frequently.
 
-![Churn by Monthly Charges](images/churn_by_monthly_charges.png)
+![Churn by Monthly Charges](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/churn_by_monthly_charges.png)
 
 ---
 
@@ -249,7 +249,7 @@ The three biggest factors identified are: **contract type (month-to-month)**, **
 **27. Which combination of customer attributes leads to the highest churn?**
 Using the **Root Cause Analysis decomposition tree**, drilling from Contract → Internet Service → Payment Method surfaces the single highest-risk combination: **Month-to-Month contract customers**, which the tree automatically expands to as the top contributing path, and can be drilled further to combine with service and payment attributes.
 
-![Root Cause Decomposition Tree](images/root_cause_decomposition_tree.png)
+![Root Cause Decomposition Tree](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/root_cause_decomposition_tree.png)
 
 ---
 
@@ -267,7 +267,7 @@ Yes. All executive-level KPIs — Churn Rate, Active/Total Customers, Average Ch
 **31. What does the dashboard look like end-to-end, filters and all?**
 The full assembled view — filters, KPIs, segment charts, the high-risk table, and the root cause tree — is shown together below.
 
-![Full Dashboard with Filters](images/dashboard_overview.png)
+![Full Dashboard with Filters](https://raw.githubusercontent.com/Devam665/Customer-Churn-Analytics-PowerBI/main/Customer%20Churn%20Analytics%20%26%20Prediction%20Dashboard/images/dashboard_overview.png)
 
 ---
 
